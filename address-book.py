@@ -103,8 +103,8 @@ class AddressBook (Contact) :
         f.close()
 
 """
-Here add how you want to initialize with name addressbook.data
-option 1 from file:
+Here add how you want to initialize address book
+option 1 from file addressbook.data:
 Address_Book = AddressBook.loadFromFile()
 option 2 from list:
 Address_Book = AddressBook(your_list)
